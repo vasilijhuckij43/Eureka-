@@ -1,0 +1,17 @@
+//            .max(by: { int1, int2 in
+//                return int1 < int2
+//            })
+//            .tryCompactMap { value in
+//                if value == 5 {
+//                    return nil
+//                } else if value == 7 {
+//                    throw URLError(.badServerResponse)
+//                }
+//                return String(value)
+//            }
+//            .compactMap { value in
+//                if value == 5 {
+//                    return nil
+//                }
+//                return String(value)
+//            }
